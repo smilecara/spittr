@@ -9,7 +9,7 @@
 	<body>
 		<h1>Welcome to Spittr</h1>
 		<a href="<c:url value='/spittles'/>"> Spittles</a>
-		<a href="<c:url value='/spittler/register'/>"> Rigister</a>
+		<a href="<c:url value='/spitter/register'/>"> Rigister</a>
 		
 	</body>
 </html>

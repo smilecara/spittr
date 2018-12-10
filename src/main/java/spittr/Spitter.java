@@ -10,19 +10,20 @@ public class Spitter {
 	private Long id;
 	
 	@NotNull
-	@Size(min=2,max=30)
+	@Size(min=2,max=30,message ="{firstName.size}")
 	private String firstName;
 	
 	@NotNull
-	@Size(min=2,max=30)
+	@Size(min=2,max=30, message = "{lastName.size}")
 	private String lastName;
 	
 	@NotNull
-	@Size(min=5,max=16)
+	@Size(min=5,max=16, message = "{userName.size}")
 	private String userName;
 	@NotNull
-	@Size(min=5,max=25)
+	@Size(min=5,max=25, message = "{password.size}")
 	private String password;
+	
 	public Spitter() {}
 	public Spitter(Long id, String firstName,String lastName,String userName,String password) {
 		this.id = id;
